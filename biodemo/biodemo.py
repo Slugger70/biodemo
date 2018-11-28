@@ -198,11 +198,11 @@ def process_files(options):
                 exit_with_error(str(exception), EXIT_FILE_IO_ERROR)
             else:
                 with fasta_file:
-                    stats = FastaStats().from_file(fasta_file, options.minlen)
+                    stats = FastaStats().from_file(fasta_file, options.minlen, options.maxlen)
                     print(stats.pretty(fasta_filename))
     else:
         logging.info("Processing FASTA file from stdin")
-        stats = FastaStats().from_file(sys.stdin, options.minlen)
+        stats = FastaStats().from_file(sys.stdin, options.minlen, options.maxlen)
         print(stats.pretty("stdin"))
 
 
