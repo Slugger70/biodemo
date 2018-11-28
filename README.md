@@ -41,6 +41,7 @@ $ pip install -U /path/to/biodemo
 $ pip install -U --user /path/to/biodemo
 ```
 
+And pray to the Gods of Chaos!
 
 # General behaviour
 
