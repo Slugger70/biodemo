@@ -4,7 +4,7 @@
 
 echo 'Python install'
 (
-   pip install pylint
+   pip install pylint coverage codecov
    pip install .
   
 )
