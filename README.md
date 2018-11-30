@@ -1,4 +1,5 @@
 [![travis](https://travis-ci.org/Slugger70/biodemo.svg?branch=master)](https://travis-ci.org/Slugger70/biodemo)
+[![codecov](https://codecov.io/github/slugger70/biodemo/branch/master/graphs/badge.svg)](https://codecov.io/github/slugger70/biodemo)
 
 # Overview 
 
